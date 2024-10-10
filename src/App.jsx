@@ -12,11 +12,13 @@ function App() {
       <div className="bg-[#F8FAFC]">
         <Header />
         <Banner />
-        <div className="grid grid-cols-6 gap-13">
-          <Item />
-          <Item />
-          <Item />
-          <Item />
+        <div className="container">
+          <div className="grid grid-cols-4 gap-4">
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </div>
         </div>
         <Footer />
       </div>
